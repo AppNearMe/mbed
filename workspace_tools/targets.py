@@ -168,8 +168,7 @@ class LPC11U34_421(LPCTarget):
 class MICRONFCBOARD(LPC11U34_421):
     def __init__(self):
         LPC11U34_421.__init__(self)
-        self.macros = ['LPC11U34_421', 'APPNEARME_MICRONFCBOARD']
-        self.extra_labels = ['NXP', 'LPC11UXX', 'APPNEARME_MICRONFCBOARD']
+        self.extra_labels = ['NXP', 'LPC11UXX', 'LPC11U34_421', 'APPNEARME_MICRONFCBOARD']
         self.supported_toolchains = ["ARM", "uARM", "GCC_ARM"]
         self.default_toolchain = "uARM"
 
